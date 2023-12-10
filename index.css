@@ -108,3 +108,41 @@ button {
     letter-spacing: 0.5px;
     color: #ffffff; /* Set your desired text color */
   }
+
+  .bodyHeading{
+    width: 529px;
+    height: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bodyHeading span {
+    display: inline-block; /* This makes the span a block-level element, allowing text-align to center it */
+}
+
+
+.card-img-top{
+    width: 48px !important;
+    height: 48px !important;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border-radius: 20px; */
+}
+
+.card{
+    box-shadow: 0px 4px 50px gainsboro;
+}
+
+.object{
+    width: 65px;
+    height: 169.95px;
+    position: absolute;
+    top: 800.95px;
+    left: 20px;
+}
+
+.bodySection{
+    width: 1200px;
+    height: 399px;
+}
