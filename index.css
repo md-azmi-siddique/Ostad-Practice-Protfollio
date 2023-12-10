@@ -1,0 +1,110 @@
+.navBar {
+  margin-top: 40px;
+  /* border: 1px solid red; */
+}
+
+.navLogo {
+  width: 119px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLogo span {
+  font-family: Tanker;
+  font-size: 30px;
+  /* font-weight: 700; */
+  line-height: 41px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 0;
+  color: #9333ea; /* Set your desired text color */
+}
+
+.navItem {
+  margin-left: 50px;
+}
+
+.navItem a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  /* width: 245px;
+    height: 52px;
+    cursor: pointer; */
+  border: none;
+  background-color: white;
+}
+
+.styledButton {
+  width: 167px;
+  height: 52px;
+  padding: 14px 50px;
+  border-radius: 50px;
+  border: 1px solid #9333ea;
+  background-color: #9333ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.styledButton span {
+  font-family: Tanker;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #ffffff; /* Set your desired text color */
+}
+
+
+.imageHero{
+    margin-top: -21px;
+    margin-left: 17px;
+}
+
+.heroH1{
+    margin-top: 50px;
+    text-align: left;
+}
+.heroH1 .heading{
+    font-size: 54px;
+}
+
+.heroH1 .description{
+    opacity: 50%;
+}
+
+.heroButtonSection{
+    margin-top: 50px;
+}
+
+.heroButton {
+    width: 250px;
+    height: 52px;
+    padding: 14px 50px;
+    border-radius: 50px;
+    border: 1px solid #9333ea;
+    background-color: #9333ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .heroButton span {
+    font-family: Tanker;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #ffffff; /* Set your desired text color */
+  }
