@@ -146,3 +146,15 @@ button {
     width: 1200px;
     height: 399px;
 }
+
+.courseImg{
+    width: 344px !important;
+    height: 207px !important;
+    border-radius: 8px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.cardTitle{
+    margin-top: 20px;
+}
