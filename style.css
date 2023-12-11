@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* nav bar design */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+}
+
+.navItem ul{
+    list-style: none;
+}
+
+.navItem ul li{
+    display: inline-block;
+    
+}
+
+.navItem ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+
+.navButton a{
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    margin-right: 10px;
+}
+
+
